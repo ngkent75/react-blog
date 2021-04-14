@@ -3,6 +3,16 @@ import React, { useReducer } from "react";
 
 const reducer = (state, action) => {
   switch (action.type) {
+  case "UPDATE_POSTS":
+    return 
+  case "ADD_POST":
+    return
+  case "REMOVE_POST":
+    return
+  case "SET_CURRENT_POST":
+    return
+  case "LOADING":
+    return
   default:
     return state;
   }
